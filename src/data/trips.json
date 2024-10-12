@@ -1,0 +1,480 @@
+{
+  "trips": [
+    {
+      "id": 1,
+      "title": "Paris Adventure",
+      "description": "Explore the best of Paris in 4 days, including iconic landmarks, museums, and charming neighborhoods.",
+      "startDate": "2024-09-01",
+      "endDate": "2024-09-04",
+      "cover": "paris.jpg",
+      "notes": "",
+      "days": [
+        {
+          "date": "2024-09-01",
+
+          "stops": [
+            {
+              "title": "Eiffel Tower",
+              "description": "Visit the iconic Eiffel Tower and enjoy panoramic views of Paris.",
+              "latitude": 48.8584,
+              "longitude": 2.2945,
+
+              "notes": "Consider visiting early in the morning to avoid long queues.",
+
+              "visited": false
+            },
+            {
+              "title": "Champs-Élysées",
+              "description": "Stroll down the famous avenue and enjoy shopping and cafes.",
+              "latitude": 48.8668,
+              "longitude": 2.3115,
+
+              "notes": "Great place for a leisurely walk and some shopping.",
+
+              "visited": false
+            }
+          ]
+        },
+        {
+          "date": "2024-09-02",
+
+          "stops": [
+            {
+              "title": "Louvre Museum",
+              "description": "Explore the world's largest art museum, home to the Mona Lisa.",
+              "latitude": 48.8606,
+              "longitude": 2.3376,
+
+              "notes": "Plan at least half a day to explore the museum's vast collections.",
+
+              "visited": false
+            },
+            {
+              "title": "Seine River Cruise",
+              "description": "Enjoy a relaxing cruise along the Seine River, with views of Paris's landmarks.",
+              "latitude": 48.8566,
+              "longitude": 2.3522,
+
+              "notes": "Evening cruises offer beautiful views of the city illuminated.",
+
+              "visited": false
+            }
+          ]
+        },
+        {
+          "date": "2024-09-03",
+          "image": "moulin_rouge.jpg",
+          "stops": [
+            {
+              "title": "Montmartre & Sacré-Cœur",
+              "description": "Explore the artistic neighborhood of Montmartre and visit the Sacré-Cœur Basilica.",
+              "latitude": 48.8867,
+              "longitude": 2.3431,
+
+              "notes": "Walk up the steps for a great view of Paris.",
+
+              "visited": false
+            },
+            {
+              "title": "Moulin Rouge",
+              "description": "Experience the vibrant cabaret show at the world-famous Moulin Rouge.",
+              "latitude": 48.8841,
+              "longitude": 2.3326,
+
+              "notes": "Book tickets in advance for the best seating.",
+
+              "visited": false
+            }
+          ]
+        },
+        {
+          "date": "2024-09-04",
+
+          "stops": [
+            {
+              "title": "Notre-Dame Cathedral",
+              "description": "Visit the Gothic masterpiece and climb the towers for a stunning view.",
+              "latitude": 48.853,
+              "longitude": 2.3499,
+
+              "notes": "Check restoration status as the cathedral is undergoing repairs.",
+
+              "visited": false
+            },
+            {
+              "title": "Luxembourg Gardens",
+              "description": "Relax in the beautiful Luxembourg Gardens, a perfect spot for a picnic.",
+              "latitude": 48.8462,
+              "longitude": 2.3372,
+
+              "notes": "Ideal for a leisurely afternoon in a peaceful setting.",
+
+              "visited": false
+            }
+          ]
+        }
+      ],
+      "hotels": [
+        {
+          "name": "Hotel Eiffel Seine",
+          "address": "3 Boulevard de Grenelle, 75015 Paris, France",
+          "checkIn": "2024-09-01",
+          "checkOut": "2024-09-05",
+          "latitude": 48.8556,
+          "longitude": 2.2938
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Le Grand Véfour",
+          "type": "French",
+          "address": "17 Rue de Beaujolais, 75001 Paris, France",
+          "latitude": 48.865,
+          "longitude": 2.3371
+        },
+        {
+          "name": "Café Marly",
+          "type": "French",
+          "address": "93 Rue de Rivoli, 75001 Paris, France",
+          "latitude": 48.8613,
+          "longitude": 2.3345
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Italian Journey",
+      "description": "Experience the beauty of Italy over 10 days, visiting iconic cities and enjoying local culture and cuisine.",
+      "startDate": "2024-08-20",
+      "endDate": "2024-08-29",
+      "cover": "italy.jpg",
+      "notes": "",
+      "days": [
+        {
+          "date": "2024-08-20",
+          "image": "",
+          "stops": [
+            {
+              "title": "Colosseum",
+              "description": "Visit the ancient Roman Colosseum, a symbol of the Eternal City.",
+              "latitude": 41.8902,
+              "longitude": 12.4922,
+
+              "notes": "Arrive early to avoid crowds.",
+
+              "visited": true
+            },
+            {
+              "title": "Roman Forum",
+              "description": "Explore the ruins of ancient Rome, including temples, arches, and markets.",
+              "latitude": 41.8925,
+              "longitude": 12.4853,
+
+              "notes": "Consider a guided tour to fully appreciate the history.",
+
+              "visited": false
+            }
+          ]
+        },
+        {
+          "date": "2024-08-21",
+
+          "stops": [
+            {
+              "title": "Vatican Museums",
+              "description": "See the vast art collections of the Vatican, including the Sistine Chapel.",
+              "latitude": 41.9065,
+              "longitude": 12.4536,
+
+              "notes": "Book tickets in advance to skip the line.",
+
+              "visited": false
+            },
+            {
+              "title": "St. Peter's Basilica",
+              "description": "Visit one of the world's largest and most beautiful churches.",
+              "latitude": 41.9029,
+              "longitude": 12.4534,
+
+              "notes": "Climb to the top of the dome for an amazing view of Rome.",
+
+              "visited": false
+            }
+          ]
+        },
+        {
+          "date": "2024-08-22",
+
+          "stops": [
+            {
+              "title": "Pantheon",
+              "description": "Marvel at the ancient Roman temple, now a church, with its stunning dome.",
+              "latitude": 41.8986,
+              "longitude": 12.4768,
+
+              "notes": "The Pantheon is free to enter, but check opening hours.",
+
+              "visited": false
+            },
+            {
+              "title": "Piazza Navona",
+              "description": "Relax in one of Rome's most beautiful squares, surrounded by Baroque architecture.",
+              "latitude": 41.8992,
+              "longitude": 12.4731,
+
+              "notes": "Great place to enjoy a coffee or gelato.",
+
+              "visited": false
+            }
+          ]
+        },
+        {
+          "date": "2024-08-23",
+
+          "stops": [
+            {
+              "title": "Florence - Duomo",
+              "description": "Visit Florence's Cathedral with its iconic dome designed by Brunelleschi.",
+              "latitude": 43.7731,
+              "longitude": 11.2558,
+
+              "notes": "Climb to the top for a breathtaking view of the city.",
+
+              "visited": false
+            },
+            {
+              "title": "Uffizi Gallery",
+              "description": "Explore one of the most famous art museums in the world, home to works by Leonardo da Vinci and Michelangelo.",
+              "latitude": 43.7687,
+              "longitude": 11.2552,
+
+              "notes": "Book tickets in advance to avoid the long lines.",
+
+              "visited": true
+            }
+          ]
+        },
+        {
+          "date": "2024-08-24",
+
+          "stops": [
+            {
+              "title": "Ponte Vecchio",
+              "description": "Walk along Florence's most famous bridge, lined with jewelry shops.",
+              "latitude": 43.7679,
+              "longitude": 11.2531,
+
+              "notes": "The bridge is especially beautiful at sunset.",
+
+              "visited": true
+            },
+            {
+              "title": "Pitti Palace & Boboli Gardens",
+              "description": "Explore the grand palace and its expansive gardens.",
+              "latitude": 43.7647,
+              "longitude": 11.2507,
+
+              "notes": "The gardens offer a peaceful retreat from the city.",
+
+              "visited": false
+            }
+          ]
+        },
+        {
+          "date": "2024-08-25",
+
+          "stops": [
+            {
+              "title": "Venice - St. Mark's Basilica",
+              "description": "Visit the stunning basilica in the heart of Venice.",
+              "latitude": 45.434,
+              "longitude": 12.3399,
+
+              "notes": "Dress modestly to enter the basilica.",
+
+              "visited": false
+            },
+            {
+              "title": "Doge's Palace",
+              "description": "Explore the historical seat of Venetian power.",
+              "latitude": 45.4336,
+              "longitude": 12.3396,
+
+              "notes": "Don't miss the Bridge of Sighs.",
+
+              "visited": false
+            }
+          ]
+        },
+        {
+          "date": "2024-08-26",
+          "image": "venice.jpg",
+          "stops": [
+            {
+              "title": "Grand Canal",
+              "description": "Take a gondola ride through Venice's most famous waterway.",
+              "latitude": 45.4408,
+              "longitude": 12.3155,
+
+              "notes": "Gondola rides can be expensive, so consider a group ride.",
+
+              "visited": false
+            },
+            {
+              "title": "Rialto Bridge",
+              "description": "Walk across Venice's oldest bridge and enjoy views of the Grand Canal.",
+              "latitude": 45.4384,
+              "longitude": 12.335,
+
+              "notes": "A popular spot for photos, but be prepared for crowds.",
+
+              "visited": false
+            }
+          ]
+        },
+        {
+          "date": "2024-08-27",
+
+          "stops": [
+            {
+              "title": "Milan - The Last Supper",
+              "description": "See Leonardo da Vinci's masterpiece in the refectory of the Convent of Santa Maria delle Grazie.",
+              "latitude": 45.4654,
+              "longitude": 9.1705,
+
+              "notes": "Booking in advance is essential.",
+
+              "visited": false
+            },
+            {
+              "title": "Milan Cathedral",
+              "description": "Visit the impressive Gothic cathedral, one of the largest in the world.",
+              "latitude": 45.4642,
+              "longitude": 9.1916,
+
+              "notes": "Climb to the rooftop for panoramic views of the city.",
+
+              "visited": false
+            }
+          ]
+        },
+        {
+          "date": "2024-08-28",
+
+          "stops": [
+            {
+              "title": "Galleria Vittorio Emanuele II",
+              "description": "Shop or dine in one of the world's oldest shopping malls, known for its architecture.",
+              "latitude": 45.4659,
+              "longitude": 9.191,
+              "image": "galleria_vittorio_emanuele.jpg",
+              "notes": "A great place to enjoy a coffee and people-watch.",
+
+              "visited": false
+            },
+            {
+              "title": "Sforza Castle",
+              "description": "Explore the castle and its museums, which house works by Michelangelo.",
+              "latitude": 45.4703,
+              "longitude": 9.1793,
+
+              "notes": "Don't miss the beautiful courtyards and gardens.",
+
+              "visited": false
+            }
+          ]
+        },
+        {
+          "date": "2024-08-29",
+
+          "stops": [
+            {
+              "title": "Lake Como",
+              "description": "Take a day trip to the stunning Lake Como, surrounded by mountains and picturesque villages.",
+              "latitude": 45.9237,
+              "longitude": 9.2559,
+
+              "notes": "Consider a boat tour to fully appreciate the beauty of the lake.",
+
+              "visited": false
+            },
+            {
+              "title": "Bellagio",
+              "description": "Visit the charming village of Bellagio, known as the 'Pearl of Lake Como.'",
+              "latitude": 45.9876,
+              "longitude": 9.2618,
+              "image": "bellagio.jpg",
+              "notes": "Enjoy a leisurely walk through the narrow streets and lakeside views.",
+
+              "visited": false
+            }
+          ]
+        }
+      ],
+      "hotels": [
+        {
+          "name": "Hotel Quirinale",
+          "address": "Via Nazionale, 7, 00184 Roma RM, Italy",
+          "checkIn": "2024-08-20",
+          "checkOut": "2024-08-22",
+          "latitude": 41.9029,
+          "longitude": 12.4989
+        },
+        {
+          "name": "Hotel Bernini Palace",
+          "address": "Piazza San Firenze, 29, 50122 Firenze FI, Italy",
+          "checkIn": "2024-08-22",
+          "checkOut": "2024-08-24",
+          "latitude": 43.7696,
+          "longitude": 11.2558
+        },
+        {
+          "name": "Hotel Danieli",
+          "address": "Riva degli Schiavoni, 4196, 30122 Venezia VE, Italy",
+          "checkIn": "2024-08-24",
+          "checkOut": "2024-08-26",
+          "latitude": 45.4342,
+          "longitude": 12.3425
+        },
+        {
+          "name": "Excelsior Hotel Gallia",
+          "address": "Piazza Duca d'Aosta, 9, 20124 Milano MI, Italy",
+          "checkIn": "2024-08-26",
+          "checkOut": "2024-08-29",
+          "latitude": 45.4847,
+          "longitude": 9.2047
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Ristorante Aroma",
+          "type": "Italian",
+          "address": "Via Labicana, 125, 00184 Roma RM, Italy",
+          "latitude": 41.8902,
+          "longitude": 12.495
+        },
+        {
+          "name": "Trattoria 4 Leoni",
+          "type": "Italian",
+          "address": "Via de' Vellutini, 1r, 50125 Firenze FI, Italy",
+          "latitude": 43.7684,
+          "longitude": 11.2495
+        },
+        {
+          "name": "Osteria alle Testiere",
+          "type": "Seafood",
+          "address": "Calle del Mondo Novo, 5801, 30122 Venezia VE, Italy",
+          "latitude": 45.4352,
+          "longitude": 12.3412
+        },
+        {
+          "name": "Ristorante Cracco",
+          "type": "Italian",
+          "address": "Galleria Vittorio Emanuele II, Milan, Italy",
+          "latitude": 45.4659,
+          "longitude": 9.191
+        }
+      ]
+    }
+  ]
+}

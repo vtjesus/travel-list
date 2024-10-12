@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  height: 100vh;
+  border: 1px solid transparent;
+}
+
+.main-container {
+  height: calc(100% - 112px);
+  overflow-x: auto;
+}
+img {
+  display: block;
+}
+.thumb {
+  max-width: 120px;
+}
+.modal {
+  transform: translateX(-50%);
+}
